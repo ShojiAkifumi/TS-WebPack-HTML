@@ -1,3 +1,5 @@
+//////////////// ダミーコード /////////////////////
+
 class Drink {
   private _price: number;
   constructor(price: number) {
@@ -27,3 +29,5 @@ const body = document.querySelector("body");
 const h1 = document.createElement("h1");
 body?.appendChild(h1);
 h1.textContent = Drink.hello;
+
+//////////////// ダミーコード /////////////////////
